@@ -1,1 +1,26 @@
 /* You can add global styles to this file, and also import other style files */
+td {
+  border-top: 1px solid black;
+  text-align: justify;
+  padding: 10px 1px;
+  vertical-align: middle;
+}
+th {
+  text-align: justify;
+}
+
+.title {
+  padding-right: 10px;
+  font-weight: 800;
+}
+
+.rating {
+  color: rgb(255, 187, 0);
+  padding: 10px 5px;
+  font-weight: 800;
+  text-shadow: -0.5px 0.5px rgb(136, 135, 129);
+}
+
+.clickable {
+  cursor: pointer;
+}
